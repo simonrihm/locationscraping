@@ -130,7 +130,7 @@ with open(csv_name+'.csv', 'r', encoding='utf-8-sig') as csvFile:
         latitude=row[5]
         longitude=row[6]
         
-        search_query="karlsruhe "+title        
+        search_query="cityname "+title        
         search_query=search_query.replace("ä","ae")
         search_query=search_query.replace("Ä","Ae")
         search_query=search_query.replace("ö","oe")
